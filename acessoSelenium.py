@@ -2,10 +2,10 @@
 from time import sleep
 from selenium import webdriver
 
-***
+"""
 Crie primeiro um profile salvando a senha.
 https://support.mozilla.org/pt-BR/kb/gerenciador-de-perfis-crie-remova-ou-troque-perfis?redirectlocale=pt-BR&redirectslug=gerenciador-de-perfis-para-criar-remover-perfis
-***
+"""
 
 dir = 'C:\Users\ReinaldoRossettii\AppData\Roaming\Mozilla\Firefox\Profiles\878rtczp.reinaldo'
 firefox_profile = webdriver.FirefoxProfile(profile_directory=dir)
